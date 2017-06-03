@@ -54,7 +54,7 @@ const theme ={
 }
 
 const App () = (
-  <ThemeProvider theme={defaultTheme}>
+  <ThemeProvider theme={theme}>
     <Row>
      <Col xs={1} sm={1/2} md={1/3} lg={1/4} xl={5/1}>Col1</Col>
      <Col xs={1} sm={1/2} md={1/3} lg={1/4} xl={5/1}>Col2</Col>
