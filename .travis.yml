@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "7"
+  - "6"
+sudo: false
+cache:
+  yarn: true
+  directories:
+  - node_modules
+notifications:
+  email: false
