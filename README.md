@@ -29,7 +29,7 @@ const App () = (
       sm={1/2} // 36em(576px)~
       md={1/3} // 48em(768px)~
       lg={1/4} // 62em(992px)~
-      xl={5/1} // 75em(1200px)~
+      xl={1/5} // 75em(1200px)~
     >
       Col1
     </Col>
@@ -56,9 +56,9 @@ const theme ={
 const App () = (
   <ThemeProvider theme={theme}>
     <Row>
-     <Col xs={1} sm={1/2} md={1/3} lg={1/4} xl={5/1}>Col1</Col>
-     <Col xs={1} sm={1/2} md={1/3} lg={1/4} xl={5/1}>Col2</Col>
-     <Col xs={1} sm={1/2} md={1/3} lg={1/4} xl={5/1}>Col3</Col>
+     <Col xs={1} sm={1/2} md={1/3} lg={1/4} xl={1/5}>Col1</Col>
+     <Col xs={1} sm={1/2} md={1/3} lg={1/4} xl={1/5}>Col2</Col>
+     <Col xs={1} sm={1/2} md={1/3} lg={1/4} xl={1/5}>Col3</Col>
     </Row>
   </ThemeProvider>
 )
